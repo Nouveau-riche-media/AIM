@@ -1,0 +1,198 @@
+/* Fonts */
+@font-face{
+	font-family: sign;
+	src: url("../fonts/Prestige\ Signature\ Script\ -\ Demo.ttf");
+} 
+@font-face{
+	font-family: vibe;
+	src: url("../fonts/GreatVibes-Regular.ttf");
+} 
+
+/* 
+#center {
+  z-index: -2;
+  border:2px solid #ed3237;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  text-align:center;
+}
+#center #move{
+  margin-left: 6vw !important;
+}
+
+Mobile version
+#centerSmall{
+  z-index: -2;
+  border:2px solid #ed3237;
+  text-align:center;
+}
+
+
+#btnMoved{
+  margin-left: 33%;
+  margin-top: -2%;
+  position: absolute;
+}
+#btnMoved .btn{
+  width: 150px;
+  height: 50px;
+  background-color: orange;
+  border: #ed3237;
+  font-size: 20px;
+}
+
+Desktop version
+#btnMove{
+  margin-left: 43%;
+  margin-top: -2%;
+  position: absolute;
+}
+#btnMove .btn{
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: #ed3237;
+  font-size: 25px;
+} */
+
+.hero{
+  margin-top:7%; 
+  margin-bottom:7%; 
+  text-align: center;
+}
+
+@media(min-width:200px) and (max-width:767px){
+  #landwriteup h3 {
+    color: white;
+    /* font-size: 4em; */
+    font-weight: 500;
+    font-family: vibe;
+    letter-spacing: 3px;
+    /* line-height: 5px; */
+  }
+}
+
+@media(min-width: 768px){
+  #landwriteup h3 {
+    color: white;
+    font-size: 4em;
+    font-weight: 500;
+    font-family: vibe;
+    letter-spacing: 3px;
+    /* line-height: 5px; */
+  }
+}
+
+
+
+/* Landing page */
+
+
+
+
+#col1 {
+  text-align:center;
+  background-color:white;
+  padding:3px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+#col2 {
+  /* background-image:url('../../assets/img/O6NM390-min.jpg'); */
+  /* background-size:cover; */
+  background-repeat: no-repeat;
+  width:100%;
+  height:70vh;
+  margin-right:0;
+  margin-left:0;
+}
+
+#camp {
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+#con {
+  padding:30px;
+  border:5px solid #1f2946;
+  border-radius:100%;
+  font-size:50px;
+}
+
+#con1 {
+  padding:30px;
+  border:5px solid #1f2946;
+  border-radius:100%;
+  font-size:50px;
+}
+
+#carousel-1 {
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+#abb {
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* *********** Footer **************** */
+footer, footer p {
+  color: #999;
+  line-height: 21px;
+}
+footer {
+  padding: 55px 0 0;
+  border-top: 0 solid transparent;
+  padding-bottom: 44px;
+  border-top-width: 1px;
+  background: #222222;
+}
+footer .footer-contact-info p {
+  margin-bottom: 6px;
+}
+
+.copyright p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 24px;
+  color: #aaa;
+  padding-bottom: 2px;
+}
+.copyright {
+  padding: 16px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  overflow: hidden;
+  font-size: 12px;
+  border-top: 0 solid transparent;
+  border-top-width: 1px;
+  background-color: #2C2C2C;
+  border-top-color: #333333;
+}
+
+.social-icons{
+  list-style: none;
+  /* overflow: hidden; */
+}
+.social-icons li{
+  /* letter-spacing: 10px; */
+  border: 2px solid grey;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 100%;
+  float: left;
+}
+.social-icons li a{
+  text-align: center;
+  font-size: 20px;
+  color: #999;
+  
+}
